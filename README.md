@@ -16,7 +16,7 @@ mysql> show databases;
 
 mysql> use <name-of-your-db>; [ If you haven't created a DB yet, go ahead create one by : CREATE DATABASE <your-db-name>; ]
   
-mysql> select * from <your-table-name>;
+mysql> select * from <your-tablename>;
 
 
 
