@@ -1,0 +1,17 @@
+<!doctype html>
+<head>
+<header> <h2 style="color:blue;">Welcome to my NBA Page </h2> </header>
+</head>
+<h3 style="color:green;">Our Player List </h3>
+<html>
+	<body>
+          <form method="POST" action="/Retrieve">
+            <ul>
+                {% for i in options %}
+                <li>PLayer Id : {{ i[0] }} <br> Name of Player : {{ i[1] }}  </li>
+                {% endfor %}
+              </ul>
+          </form>
+	</body>
+</html>
+
