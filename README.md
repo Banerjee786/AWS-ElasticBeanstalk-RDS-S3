@@ -14,9 +14,9 @@ mysql -h <your-rds-domain-name.us-east-2.rds.amazonaws.com> -P 3306 -u <your-rds
 
 mysql> show databases;
 
-mysql> use <name-of-your-db>; [ If you haven't created a DB yet, go ahead create one by : CREATE DATABASE <your-db-name>; ]
+mysql> use <nameOfYourDB>; [ If you haven't created a DB yet, go ahead create one by : CREATE DATABASE <your-db-name>; ]
   
-mysql> select * from <your-tablename>;
+mysql> select * from <yourtablename>;
 
 
 
